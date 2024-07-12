@@ -43,6 +43,10 @@ public class Main {
             System.exit(0);
             return;
         }
+
+        //comの手を生成
+        com.createRandomHand();
+
         //以降にテストコードを追加して検証を行う
         System.out.println(user.getHand().getHandName());
     }
