@@ -11,8 +11,14 @@ public class Pa implements Hand {
      */
 
     public int compare(Hand hand) {
-        //TODO:例外の処理
-        return 0; //TODO 仮の返り値
+        if (hand instanceof Gu) {    //グー　vs パー（自分）
+            return 1;
+        } else if (hand instanceof Choki) {    //チョキ　vs パー（自分）
+            return -1;
+        } else {
+            //TODO:例外の処理
+            return 0; //TODO 仮の返り値
+        }
     }
 
 
