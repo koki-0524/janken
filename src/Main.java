@@ -48,6 +48,10 @@ public class Main {
         com.createRandomHand();
 
         //以降にテストコードを追加して検証を行う
-        System.out.println(user.getHand().getHandName());
+//        System.out.println("ランダムなジャンケンの手をCPUに");
+//        System.out.println(user.getHand().getHandName());
+        //勝敗決定
+
+//        int result = game.judge(user, com);
     }
 }
